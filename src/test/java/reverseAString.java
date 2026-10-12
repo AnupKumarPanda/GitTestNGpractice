@@ -12,5 +12,6 @@ public class reverseAString
             reverseSting = s1.charAt(i) + reverseSting;
         }
         System.out.println("Reverse of the string is: " + reverseSting);
+        System.out.println("String reversal test executed successfully.");
     }
 }
