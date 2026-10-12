@@ -9,6 +9,6 @@ public class CelsiusToFarhenheight
         double celsius = sc.nextDouble();
         double farhenheight = (celsius * 9/5) + 32;
         System.out.println("The farhenheight value is : " + farhenheight);
-
+ 
     }
 }
