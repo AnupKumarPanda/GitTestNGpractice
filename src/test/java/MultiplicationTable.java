@@ -13,11 +13,11 @@ public class MultiplicationTable
     }
     public String multiplicationTable(int n)
     {
-        int number = n;
+       //int number = n;
         for(int i = 1; i<=10; i++)
         {
-            System.out.println(number + " * " + i + " = " + (number*i));
+            System.out.println(n + " * " + i + " = " + (n*i));
         }
-        return "Multiplication Table of " + number + " is printed successfully";
+        return "Multiplication Table of " + n + " is printed successfully";
     }
 }
